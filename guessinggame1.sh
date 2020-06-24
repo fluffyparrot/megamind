@@ -1,3 +1,5 @@
+echo "My-first-repo"
+echo "The Guessing Game"
 function guess(){
     true_ans=$(ls -l |grep "^-"|wc -l)
     while true;
